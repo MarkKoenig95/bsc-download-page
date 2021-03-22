@@ -1,0 +1,67 @@
+.page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  align-content: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 2% 7%;
+}
+
+.column-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.indented {
+  margin-left: 1rem;
+}
+
+.loading {
+  display: block !important;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8)
+    url("https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif")
+    50% 50% no-repeat;
+}
+
+.row-content {
+  align-content: center;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+@media (max-width: 660px) {
+  .row-content {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 510px) {
+  main {
+    margin: auto;
+  }
+}
