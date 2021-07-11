@@ -30,7 +30,7 @@ export default function HomePage() {
           <i className="fab fa-google-play"></i>
         </a>
         <a
-          href="https://github.com/MarkKoenig95/Bible-Study-Companion/releases/download/1.0.1/bible-study-companion-1.0.1.apk"
+          href="https://github.com/MarkKoenig95/Bible-Study-Companion/releases/download/1.1.1/1.1.1.apk"
           download
           className="download-buttons"
         >
